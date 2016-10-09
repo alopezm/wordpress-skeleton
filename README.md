@@ -36,4 +36,4 @@ composer require wpackagist-plugin/amp
 
 [Salt Generator]: <https://api.wordpress.org/secret-key/1.1/salt/>
 [wpackagist.org]: <https://wpackagist.org>
-[MIT]: License
+[MIT]: LICENSE
