@@ -19,7 +19,7 @@ When you open your worpdress the first time, **you will need to install a theme 
 
 ## Custom Paths
 
- * **Admin:** <your-site-url>/wp/wp-admin
+ * **Admin:** your-site-url/wp/wp-admin
  * **Wordpress Content (plugins, themes, ...):** public/wp-content
 
 ## Install Wordpress Packages With Composer
