@@ -1,0 +1,21 @@
+{
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org"
+    }
+  ],
+  "require": {
+    "php": ">=5.4",
+    "johnpbloch/wordpress": "^4.6.1",
+    "wpackagist-plugin/amp": "^0.4.0"
+  },
+  "extra": {
+    "wordpress-install-dir": "public/wp",
+    "installer-paths": {
+	"public/wp-content/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
+      	"public/wp-content/plugins/{$name}/": ["type:wordpress-plugin"],
+        "public/wp-content/themes/{$name}/": ["type:wordpress-theme"]
+    }
+  }
+}
