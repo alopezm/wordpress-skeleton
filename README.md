@@ -31,9 +31,13 @@ You can search new wordpress packages on [wpackagist.org] and install them using
 composer require wpackagist-plugin/amp
 ```
 
+## Reference
+[deliciousbrains]
+
 ## License
 [MIT]
 
 [Salt Generator]: <https://api.wordpress.org/secret-key/1.1/salt/>
 [wpackagist.org]: <https://wpackagist.org>
 [MIT]: LICENSE
+[deliciousbrains]: <https://deliciousbrains.com/storing-wordpress-in-git/>
